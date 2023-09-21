@@ -17,5 +17,9 @@ button{
     width: 360px;
     height: 410px;
 }
-
+.class_2{
+    object-fit: contain;
+        width: 90%;
+        height: 100%;
+}
 
