@@ -2,8 +2,10 @@
     
     background-color: black;
     color: white;
-    max-width: 500px;
+    max-width: 450px;
     margin: auto;
+    text-align: center;
+    
 }
 button{
     background: none;
@@ -18,8 +20,8 @@ button{
     height: 410px;
 }
 .class_2{
-    object-fit: contain;
-        width: 90%;
-        height: 100%;
+    display: flex;
+justify-content: space-between;
+
 }
 
