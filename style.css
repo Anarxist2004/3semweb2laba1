@@ -1,9 +1,21 @@
 .class_1{
+    
     background-color: black;
     color: white;
+    max-width: 500px;
+    margin: auto;
 }
 button{
     background: none;
     border: none;
     color: white;
 }
+.box{
+    background-position:center center;
+   background-size:cover;
+    object-fit: cover;
+    width: 360px;
+    height: 410px;
+}
+
+
