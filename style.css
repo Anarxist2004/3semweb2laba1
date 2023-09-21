@@ -25,3 +25,13 @@ justify-content: space-between;
 
 }
 
+.image-text {
+    position: absolute;
+    top: 25%; /* Размещение текста по вертикали в центре */
+    left: 50%; /* Размещение текста по горизонтали в центре */
+    transform: translate(-50%, -50%); /* Смещение текста обратно на половину его размера */
+    background-color: rgba(0, 0, 0, 0); /* Полупрозрачный фон для текста */
+    color: white; /* Цвет текста */
+    padding: 5px 10px; /* Отступы вокруг текста */
+    }
+
