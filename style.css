@@ -1,37 +1,45 @@
-.class_1{
-    
+.class_1 {
+
     width: 390.016px;
     height: 3331.188px;
-    background-position:center center;
+    background-position: center center;
     background: #1E1E1E;
-    
+
 }
 
-.firstpicture img{
-    max-width: 360px; /* Максимальная ширина изображения */
-    height: 409.754px;;
-    background-position:center center;
+.firstpicture img {
+    max-width: 360px;
+    /* Максимальная ширина изображения */
+    height: 409.754px;
+    ;
+    background-position: center center;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.00) 49.19%, rgba(0, 0, 0, 0.17) 56.21%, rgba(0, 0, 0, 0.58) 100%);
 }
-button{
+
+button {
     background: none;
     border: none;
     color: white;
 }
-.boxp1{
-    
-   
-   width:390px;
-    height:410px;
-}
-.boxp1 img{
 
-    width:360px;
-    height:410px;
-    object-fit:cover;
-    margin-top: 10px;     /* Верхний отступ 10 пикселей */
-    margin-right: 15px;   /* Правый отступ 20 пикселей */
-    margin-bottom: 10px;  /* Нижний отступ 10 пикселей */
+.boxp1 {
+
+
+    width: 390px;
+    height: 410px;
+}
+
+.boxp1 img {
+
+    width: 360px;
+    height: 410px;
+    object-fit: cover;
+    margin-top: 10px;
+    /* Верхний отступ 10 пикселей */
+    margin-right: 15px;
+    /* Правый отступ 20 пикселей */
+    margin-bottom: 10px;
+    /* Нижний отступ 10 пикселей */
     margin-left: 15px;
 
 }
@@ -39,13 +47,19 @@ button{
 
 .image-text {
     position: absolute;
-    top: 25%; /* Размещение текста по вертикали в центре */
-    left: 50%; /* Размещение текста по горизонтали в центре */
-    transform: translate(-50%, -50%); /* Смещение текста обратно на половину его размера */
-    background-color: rgba(0, 0, 0, 0); /* Полупрозрачный фон для текста */
-    color: white; /* Цвет текста */
-    padding: 5px 10px; /* Отступы вокруг текста */
-    }
+    top: 220px;
+    left: 30px;
 
-    
+    width: 330px;
+    font-family: Helvetica;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
 
+    background-color: rgba(0, 0, 0, 0);
+    /* Полупрозрачный фон для текста */
+    color: white;
+    /* Цвет текста */
+    /* Отступы вокруг текста */
+
+}
