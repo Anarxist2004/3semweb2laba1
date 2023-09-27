@@ -51,6 +51,7 @@ button {
     left: 30px;
 
     width: 330px;
+    height: 101;
     font-family: Helvetica;
     font-size: 40px;
     font-style: normal;
@@ -62,4 +63,27 @@ button {
     /* Цвет текста */
     /* Отступы вокруг текста */
 
+}
+
+.image-text1 {
+    position: absolute;
+    top: 380px;
+    left: 200px;
+
+    width: 138px;
+    height: 65;
+    font-family: Helvetica;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+    background-color: rgba(0, 0, 0, 0);
+    /* Полупрозрачный фон для текста */
+    color: white;
+    /* Цвет текста */
+    /* Отступы вокруг текста */
+    line-height: 120.523%;
+    /* 18.078px */
+    letter-spacing: -0.6px;
+    text-transform: uppercase;
 }
