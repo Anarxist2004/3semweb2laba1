@@ -46,6 +46,7 @@ button {
 
 
 .image-text {
+
     position: absolute;
     top: 220px;
     left: 30px;
@@ -59,31 +60,109 @@ button {
 
     background-color: rgba(0, 0, 0, 0);
     /* Полупрозрачный фон для текста */
-    color: white;
     /* Цвет текста */
     /* Отступы вокруг текста */
-
+    color: #FFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 89.023%;
+    /* 35.609px */
+    letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 .image-text1 {
+
     position: absolute;
     top: 380px;
     left: 200px;
-
+    text-align: right;
     width: 138px;
     height: 65;
     font-family: Helvetica;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-
-    background-color: rgba(0, 0, 0, 0);
-    /* Полупрозрачный фон для текста */
-    color: white;
+    color: #FFF;
     /* Цвет текста */
     /* Отступы вокруг текста */
     line-height: 120.523%;
     /* 18.078px */
     letter-spacing: -0.6px;
+    text-transform: uppercase;
+}
+
+.exclus {
+    width: 363.202px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+}
+
+.anzne {
+    width: 359.696px;
+    color: #CCC;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    /* 20.724px */
+}
+
+.comp {
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 50.906px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 45.318px */
+    letter-spacing: -1.273px;
+    text-transform: uppercase;
+    color: #1E1E1E;
+    -webkit-text-stroke: 1px #FFED00;
+}
+
+.about {
+    color: #ffffff;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+}
+
+.company p {
+    width: 357.855px;
+    min-height: 494;
+    color: #CCCCCC;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    /* 20.724px */
+}
+
+.our {
+    width: 322.99px;
+    color: #FFFFFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 20px */
     text-transform: uppercase;
 }
