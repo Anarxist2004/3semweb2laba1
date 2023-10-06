@@ -33,16 +33,28 @@ button {
 
     width: 360px;
     height: 410px;
-    object-fit: cover;
-    margin-top: 10px;
-    /* Верхний отступ 10 пикселей */
-    margin-right: 15px;
-    /* Правый отступ 20 пикселей */
-    margin-bottom: 10px;
-    /* Нижний отступ 10 пикселей */
-    margin-left: 15px;
 
 }
+
+.boxp2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 360px;
+    height: 205x;
+}
+
+.boxp2 figure {
+
+    display: inline;
+
+}
+
+.boxp2 img {
+
+    display: inline;
+
+}
+
 
 
 .image-text {
@@ -189,6 +201,11 @@ button {
     font-weight: 400;
     line-height: 129.523%;
     /* 20.724px */
+}
+
+* {
+    margin: 0px;
+    padding: 0;
 }
 
 .milo p {
