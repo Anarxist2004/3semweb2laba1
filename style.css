@@ -27,33 +27,30 @@ button {
     margin: 0px 17px 0px 13px;
     width: 390px;
     height: 410px;
+
+
+
 }
 
 .boxp1 img {
 
     width: 360px;
     height: 410px;
+    padding-right: 15px;
 
 }
 
-.boxp2 {
+
+.box2 {
+    width: 390px;
     margin-top: 40px;
-    margin-bottom: 40px;
-    width: 360px;
-    height: 205x;
+    margin-left: 15px;
 }
 
-.boxp2 figure {
-
-    display: inline;
-
+.box22img {
+    margin-left: 15px;
 }
 
-.boxp2 img {
-
-    display: inline;
-
-}
 
 
 
@@ -103,30 +100,9 @@ button {
     text-transform: uppercase;
 }
 
-.exclus {
-    width: 363.202px;
-    color: #FFF;
-    font-family: Helvetica;
-    font-size: 25px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 100%;
-    /* 25px */
-    letter-spacing: -0.625px;
-    text-transform: uppercase;
-}
 
-.anzne {
-    width: 359.696px;
-    color: #CCC;
-    text-align: justify;
-    font-family: Helvetica;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 129.523%;
-    /* 20.724px */
-}
+
+
 
 .comp {
     text-align: center;
@@ -140,9 +116,13 @@ button {
     text-transform: uppercase;
     color: #1E1E1E;
     -webkit-text-stroke: 1px #FFED00;
+    margin-top: 80px;
+    margin-bottom: 10px;
 }
 
 .about {
+    margin-left: 16px;
+    margin-bottom: 30px;
     color: #ffffff;
     font-family: Helvetica;
     font-size: 25px;
@@ -154,7 +134,14 @@ button {
     text-transform: uppercase;
 }
 
+.company {
+    width: 360px;
+    height: 494px;
+}
+
 .company p {
+    padding: 12px 17px 0px 17px;
+    text-align: center;
     width: 357.855px;
     min-height: 494;
     color: #CCCCCC;
@@ -168,6 +155,8 @@ button {
 }
 
 .our {
+    padding-left: 14px;
+    padding-bottom: 40px;
     width: 322.99px;
     color: #FFFFFF;
     font-family: Helvetica;
@@ -180,6 +169,7 @@ button {
 }
 
 .contacus {
+    padding-bottom: 40px;
     width: 252.784px;
     color: #FFF;
     font-family: Helvetica;
@@ -193,6 +183,8 @@ button {
 }
 
 .contacs {
+    padding-top: 80px;
+    padding-bottom: 40px;
     color: #A8A8A8;
     text-align: justify;
     font-family: Helvetica;
@@ -203,10 +195,7 @@ button {
     /* 20.724px */
 }
 
-* {
-    margin: 0px;
-    padding: 0;
-}
+
 
 .milo p {
     color: #FFF;
@@ -232,26 +221,161 @@ button {
 }
 
 .boxh3 {
-    margin: 30px 37px 0px 37px;
+
     height: 214px;
-    width: 360px;
+    width: 390px;
+    margin-left: 15.3px;
+}
+
+.boxh3 h2 {
+    width: 363.202px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 25px */
+    letter-spacing: -0.625px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
 }
 
 .boxh3 p {
-    margin: 30px 0px 0px 0px;
+    width: 359.696px;
+    color: #CCC;
+    text-align: justify;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 129.523%;
+    /* 20.724px */
+    padding-bottom: 15.75px;
+}
+
+.hr1 {
+    width: 360px;
+    margin-left: 15px;
+    margin-bottom: 40px;
+
 }
 
 .boxhead {
     height: 78.44px;
     width: 390;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .head1 {
-    float: right 150px;
+    padding-right: 90px;
 
 }
 
-.head2 {}
+.secshn {
+    /* display: flex; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-.head3 {}
+.bbox {
+    width: 390;
+    height: 700px;
+}
+
+
+
+.bboxbi {
+    padding-left: 15.75px;
+}
+
+.bboxcmali img {
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.video {
+    margin-left: 17px;
+    margin-bottom: 30px;
+}
+
+.read {
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    width: 390px;
+    height: 25px;
+
+
+}
+
+.read img {
+    align-items: right;
+    padding-left: 260px;
+}
+
+.clform {
+    width: 390;
+    height: 200px;
+}
+
+.clform img {
+    padding-top: 42px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.footer {
+    width: 390px;
+    height: 470px;
+    background-color: black;
+}
+
+
+
+.footdiv {
+    height: 190px;
+    padding-left: 13px;
+}
+
+.footdiv p {
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 380;
+    line-height: 82.523%;
+    /* 37.135px */
+    text-transform: uppercase;
+}
+
+.footp {
+    padding-bottom: 22px;
+    padding-top: 44px;
+
+}
+
+.footp2 {
+    padding-bottom: 43px;
+
+
+}
+
+.nav1 {
+    height: 30px;
+    width: 390px;
+
+}
+
+.nav1 img {
+    padding: 15px 15px 15px 15px;
+}
+
+.lp {
+    padding-right: 91px;
+}
