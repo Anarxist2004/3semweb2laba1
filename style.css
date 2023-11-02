@@ -25,20 +25,43 @@ button {
     height: 410px;
     padding-right: 15px;
 
+
 }
 
 
-.box2 {
+.box2q {
+    display: inline-block;
     margin-top: 35px;
-    width: 390px;
+    width: 175px;
+    height: 185px;
+    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+
+
 }
 
-.box2 img {
-    padding-top: 5px;
+.pad {
+    margin: 0px 10px 0px 15px;
+    display: inline-block;
+    margin-top: 35px;
+    width: 175px;
+    height: 185px;
+    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+    float: left;
 }
 
-.box2fimg {
-    padding: 0px 6px 0px 13px;
+.pad1 {
+    margin: 0px 10px 0px 15px;
+    display: inline-block;
+    margin-top: 35px;
+    width: 175px;
+    height: 185px;
+    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+    float: left;
+}
+
+.pad1 img {
+    padding-left: 17px;
+    padding-top: 43px;
 }
 
 
@@ -238,7 +261,7 @@ button {
     width: 360px;
     margin-left: 15px;
     margin-bottom: 40px;
-
+    padding-top: -100px;
 }
 
 .boxhead {
@@ -264,6 +287,62 @@ button {
     padding-right: 73px;
 }
 
+.Light {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 47px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+
+}
+
+.strela {
+    padding-top: 80px;
+    padding-left: 125px;
+}
+
+.box2pM {
+    margin: 28px 0px 0px 0px;
+
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+
+.box2q0 {
+    display: inline-block;
+    margin-top: 35px;
+    width: 175px;
+    height: 185px;
+}
+
+.VIEW {
+    color: #FFF;
+    font-family: Bebas Neue;
+    margin: 0px 0px 0px 0px;
+    font-size: 51.83px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 82.523%;
+    /* 43.597px */
+    letter-spacing: -0.528px;
+    text-transform: uppercase;
+}
+
 .secshn {
     /* display: flex; */
     display: flex;
@@ -283,6 +362,7 @@ button {
 }
 
 .bboxcmali img {
+
     padding-left: 10px;
     padding-top: 30px;
 }
@@ -365,6 +445,45 @@ button {
     padding-bottom: 43px;
 
 
+}
+
+.box2p {
+    margin-left: 15px;
+    margin-right: 80PX;
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
+}
+
+.pad img {
+    padding-left: 30px;
+    padding-top: 33px;
+}
+
+.box2q img {
+    padding-left: 30px;
+    padding-top: 33px;
+}
+
+.box2p3 {
+
+    display: inline-block;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 89.023%;
+    /* 12.463px */
+    letter-spacing: -0.35px;
+    text-transform: uppercase;
 }
 
 .nav1 {
