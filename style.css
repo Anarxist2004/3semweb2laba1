@@ -31,7 +31,6 @@ button {
 
 .box2q {
     display: inline-block;
-    margin-top: 35px;
     width: 175px;
     height: 185px;
     background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
@@ -40,28 +39,21 @@ button {
 }
 
 .pad {
-    margin: 0px 10px 0px 15px;
     display: inline-block;
-    margin-top: 35px;
     width: 175px;
     height: 185px;
     background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
-    float: left;
 }
 
 .pad1 {
-    margin: 0px 10px 0px 15px;
     display: inline-block;
-    margin-top: 35px;
     width: 175px;
     height: 185px;
     background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
-    float: left;
 }
 
 .pad1 img {
-    padding-left: 17px;
-    padding-top: 43px;
+    padding: 40px 0px 0px 15px;
 }
 
 
@@ -266,31 +258,37 @@ button {
 
 .boxhead {
     height: 40.44px;
-    width: 390px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
 }
 
 .loopa {
-    padding: 0px 96px 0px 15px;
+    /*padding: 0px 96px 0px 15px;*/
 
 
 
 }
 
 .urna {
-    height: 23px;
-    width: 29px;
+
+    /* height: 23px;
+    width: 29px;*/
 
 }
 
 .namesait {
 
-    padding-right: 73px;
+    /*padding-right: 73px;*/
 }
 
 .Light {
     display: inline-block;
-    margin-left: 15px;
-    margin-right: 47px;
+    /*margin-left: 15px;
+    margin-right: 47px;*/
+    margin-top: 5px;
     color: #FFF;
     font-family: Helvetica;
     font-size: 14px;
@@ -310,7 +308,6 @@ button {
 
 .box2pM {
     margin: 28px 0px 0px 0px;
-
     display: inline-block;
     color: #FFF;
     font-family: Helvetica;
@@ -325,7 +322,6 @@ button {
 
 .box2q0 {
     display: inline-block;
-    margin-top: 35px;
     width: 175px;
     height: 185px;
 }
@@ -358,7 +354,7 @@ button {
 
 
 .bboxbi {
-    padding-left: 15.75px;
+    padding-bottom: 30px;
 }
 
 .bboxcmali img {
@@ -390,6 +386,10 @@ button {
 .clform {
     width: 390;
     height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 .clform img {
@@ -469,7 +469,7 @@ button {
 
 .box2q img {
     padding-left: 30px;
-    padding-top: 33px;
+    padding-top: 30px;
 }
 
 .box2p3 {
@@ -484,6 +484,7 @@ button {
     /* 12.463px */
     letter-spacing: -0.35px;
     text-transform: uppercase;
+    margin-top: 5px;
 }
 
 .nav1 {
@@ -563,4 +564,30 @@ button {
     font-weight: 400;
     line-height: 129.523%;
     /* 18.133px */
+}
+
+.boxline1 {
+    height: 240.44px;
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /*
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;*/
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.boxline1 p {
+    white-space: nowrap;
+}
+
+.flexbox1 {
+    width: 390px;
+    height: 670px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
