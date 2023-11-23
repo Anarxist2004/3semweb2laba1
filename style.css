@@ -137,18 +137,21 @@ button {
     /* 25px */
     letter-spacing: -0.625px;
     text-transform: uppercase;
+
 }
 
 .company {
-    width: 360px;
-    height: 494px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
 }
 
 .company p {
     padding: 12px 17px 0px 17px;
     text-align: center;
-    width: 357.855px;
-    min-height: 494;
+    max-width: 360px;
+    flex-wrap: wrap;
     color: #CCCCCC;
     text-align: justify;
     font-family: Helvetica;
@@ -158,6 +161,7 @@ button {
     line-height: 129.523%;
     word-wrap: break-word;
     /* 20.724px */
+    flex-grow: 0;
 }
 
 .our {
@@ -216,14 +220,18 @@ button {
 }
 
 .boxh3 {
-
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     height: 214px;
-    width: 390px;
+    width: 100%;
     margin-left: 15.3px;
+    margin-bottom: 20px;
+
 }
 
 .boxh3 h2 {
-    width: 363.202px;
+    width: 100%;
     color: #FFF;
     font-family: Helvetica;
     font-size: 25px;
@@ -233,11 +241,11 @@ button {
     /* 25px */
     letter-spacing: -0.625px;
     text-transform: uppercase;
-    padding-bottom: 40px;
+
 }
 
 .boxh3 p {
-    width: 359.696px;
+    width: 100%;
     color: #CCC;
     text-align: justify;
     font-family: Helvetica;
@@ -246,7 +254,7 @@ button {
     font-weight: 400;
     line-height: 129.523%;
     /* 20.724px */
-    padding-bottom: 15.75px;
+
 }
 
 .hr1 {
@@ -384,12 +392,19 @@ button {
 }
 
 .clform {
-    width: 390;
+    width: 100%;
     height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 50px;
+}
+
+.cectflex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 .clform img {
@@ -502,12 +517,14 @@ button {
 }
 
 .forma {
+    display: flex;
     margin-left: 15px;
-    width: 360px;
-    height: 402px;
+    max-width: 360px;
+    height: 420px;
     background: linear-gradient(180deg, #262626 30.46%, #3A3A3A 100%);
 
-
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
@@ -524,6 +541,7 @@ button {
     width: 90%;
     padding: 0px;
     border: 0px;
+
 }
 
 .forma button {
