@@ -501,9 +501,15 @@ button {
 }
 
 .nav1 {
-    height: 30px;
+    height: 60px;
     width: 390px;
 
+}
+
+.nav1 a {
+
+    width: 15px;
+    height: 100%;
 }
 
 .nav1 img {
