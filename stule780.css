@@ -1,7 +1,7 @@
 @media screen and (min-width: 780px) {
     .section1 {
         width: 90%;
-        height: 2900px;
+        height: auto;
 
         display: flex;
         flex-direction: column;
@@ -215,5 +215,21 @@
         /* 43.597px */
         letter-spacing: -0.528px;
         text-transform: uppercase;
+    }
+
+    .comp {
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 94px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 89.023%;
+        /* 45.318px */
+        letter-spacing: -1.273px;
+        text-transform: uppercase;
+        color: #1E1E1E;
+        -webkit-text-stroke: 1px #FFED00;
+        margin-top: 0px;
+        margin-bottom: 10px;
     }
 }

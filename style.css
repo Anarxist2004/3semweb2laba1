@@ -15,7 +15,7 @@ button {
 
 .section1 {
     width: 90%;
-    height: 2000px;
+    height: auto;
 
     display: flex;
     flex-direction: column;
@@ -145,7 +145,7 @@ button {
     text-transform: uppercase;
     color: #1E1E1E;
     -webkit-text-stroke: 1px #FFED00;
-    margin-top: 80px;
+    margin-top: 0px;
     margin-bottom: 10px;
 }
 
