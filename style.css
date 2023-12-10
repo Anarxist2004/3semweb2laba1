@@ -15,6 +15,7 @@ button {
 
 .section1 {
     width: 90%;
+    height: 2000px;
 
     display: flex;
     flex-direction: column;
@@ -23,44 +24,40 @@ button {
 }
 
 .boxp1 {
-    align-items: center;
-    width: 100%;
 
+    width: 100%;
     height: 583px;
     display: flex;
-    justify-content: center;
-    position: relative;
+    flex-direction: column;
+    justify-content: end;
     background-image: url(image/sam-moghadam-khamseh-ugaOk9LkmQY-unsplash\ 1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-
-}
-
-.boxp1 img {
-
-    width: 100%;
-    height: auto;
-
-    object-fit: cover;
-
-}
-
-
-.box2q {
-    display: inline-block;
-    width: 175px;
-    height: 185px;
-    background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
-
+    background-position: center;
 
 }
 
 .pad {
-    display: inline-block;
-    width: 175px;
-    height: 185px;
+    width: 47%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
     background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
 }
+
+.pad div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* Выравнивание по горизонтали по центру */
+    align-items: center;
+    height: 140px;
+    width: 108px;
+}
+
 
 .pad1 {
     display: inline-block;
@@ -73,24 +70,28 @@ button {
     padding: 40px 0px 0px 15px;
 }
 
+.obertka {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 60%;
+}
 
+.obertka p {
 
+    margin: 0px 0px 0px 0px;
+}
 
 .image-text {
-
-
-
-
-    position: absolute;
-    width: 138px;
-    height: 65;
-    margin-left: -200px;
-    margin-top: -60px;
+    display: block;
+    width: 100%;
+    height: 101px;
     font-family: Helvetica;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-
     background-color: rgba(0, 0, 0, 0);
     /* Полупрозрачный фон для текста */
     /* Цвет текста */
@@ -101,16 +102,18 @@ button {
     /* 35.609px */
     letter-spacing: -1px;
     text-transform: uppercase;
+    padding-left: 5%;
+
+
+
 }
 
 .image-text1 {
 
-    position: absolute;
-    margin-left: -200px;
-    margin-top: 130px;
+    display: block;
     text-align: right;
     width: 138px;
-    height: 65;
+    height: 65px;
     font-family: Helvetica;
     font-size: 15px;
     font-style: normal;
@@ -122,6 +125,8 @@ button {
     /* 18.078px */
     letter-spacing: -0.6px;
     text-transform: uppercase;
+    padding-right: 10%;
+
 }
 
 
@@ -283,6 +288,7 @@ button {
 }
 
 .boxhead {
+    width: 90%;
     height: 40.44px;
     display: flex;
     flex-direction: row;
@@ -320,12 +326,10 @@ button {
 
 }
 
-.strela {
-    padding-top: 80px;
-    padding-left: 125px;
-}
+
 
 .box2pM {
+    width: 48%;
     margin: 28px 0px 0px 0px;
     display: inline-block;
     color: #FFF;
@@ -370,11 +374,30 @@ button {
     height: 700px;
 }
 
-
-
-.bboxbi {
-    padding-bottom: 30px;
+.viewbox {
+    width: 47%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* Выравнивание по горизонтали по центру */
+    align-items: start;
+    justify-content: space-between;
 }
+
+.viewbox a {
+    padding-top: 80px;
+    padding-left: 60%;
+}
+
+.longpic {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+
 
 .bboxcmali img {
 
@@ -483,7 +506,7 @@ button {
 }
 
 .box2p {
-
+    width: 47%;
     display: inline-block;
     color: #FFF;
     font-family: Helvetica;
@@ -494,12 +517,10 @@ button {
     /* 12.463px */
     letter-spacing: -0.35px;
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
-.pad img {
-    padding-left: 30px;
-    padding-top: 33px;
-}
+
 
 .box2q img {
     padding-left: 30px;
@@ -507,7 +528,7 @@ button {
 }
 
 .box2p3 {
-
+    width: 47%;
     display: inline-block;
     color: #FFF;
     font-family: Helvetica;
@@ -518,6 +539,7 @@ button {
     /* 12.463px */
     letter-spacing: -0.35px;
     text-transform: uppercase;
+
 
 }
 
@@ -579,9 +601,11 @@ button {
 }
 
 .forma1 {
-    position: absolute;
-    margin-left: -240px;
-    margin-top: 210px;
+    padding-top: 50px;
+    display: block;
+    width: 65px;
+    height: 10px;
+    padding-left: 20%;
 }
 
 .forma p {
@@ -610,17 +634,20 @@ button {
 }
 
 .boxline1 {
-    height: 240.44px;
-    width: 370px;
-    display: grid;
-    grid-template-columns: 185px 1fr;
-    grid-template-rows: 186px 1fr;
+
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     /*
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;*/
-    margin-left: 15px;
+
     margin-top: 40px;
 }
 
@@ -629,60 +656,13 @@ button {
 }
 
 .flexbox1 {
-    width: 390px;
-    height: 670px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-@media screen and (min-width: 744px) {
-    .boxhead {
-        width: 90%;
-        height: 40.44px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 5%;
-
-
-    }
-
-    .boxhead2 {
-
-        height: 40.44px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: 15px;
-        margin-right: 20px;
-        justify-content: center;
-    }
-
-    .boxhead2 button {
-
-        display: inline;
-        color: #FFF;
-        font-family: Inter;
-        font-size: 13px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        text-transform: uppercase;
-        margin-right: 30px;
-
-    }
-
-    .language {
-        display: inline;
-        color: #FFF;
-        margin-right: 2%;
-
-    }
-
-    .wrapper {
-        display: flex;
-        width: 100%;
-        height: 45px;
-    }
+.arrow {
+    display: none;
 }

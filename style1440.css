@@ -1,0 +1,87 @@
+@media screen and (min-width: 1440px) {
+    .boxp1 {
+        align-items: center;
+        width: 100%;
+        height: 561px;
+        display: flex;
+        justify-content: end;
+        background-image: url(image/first1440.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        height: 45px;
+    }
+
+    .image-text {
+        display: block;
+        width: 70%;
+        height: 183px;
+        font-family: Helvetica;
+        font-size: 73px;
+        font-style: normal;
+        font-weight: 700;
+        background-color: rgba(0, 0, 0, 0);
+        /* Полупрозрачный фон для текста */
+        /* Цвет текста */
+        /* Отступы вокруг текста */
+        color: #FFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        line-height: 89.023%;
+        /* 35.609px */
+        letter-spacing: -1px;
+        text-transform: uppercase;
+        order: 1;
+
+
+
+    }
+
+    .image-text1 {
+
+        display: block;
+        text-align: right;
+        width: 20%;
+        height: 104px;
+        font-family: Helvetica;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        color: #FFF;
+        /* Цвет текста */
+        /* Отступы вокруг текста */
+        line-height: 120.523%;
+        /* 18.078px */
+        letter-spacing: -0.6px;
+        text-transform: uppercase;
+        padding-right: 3%;
+        order: 2;
+    }
+
+    .forma1 {
+        padding-top: 50px;
+        display: block;
+        width: 65px;
+        height: 10px;
+        padding-right: 20%;
+        order: 4;
+    }
+
+    .arrows {
+        display: block;
+        order: 3;
+        width: 130px;
+        height: auto;
+        padding-left: 5%;
+    }
+
+    .arrow {
+        display: inline;
+
+    }
+
+}
