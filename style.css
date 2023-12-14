@@ -46,6 +46,7 @@ button {
     /* Выравнивание по горизонтали по центру */
     align-items: center;
     background: radial-gradient(38.57% 63.64% at 46.28% 56.14%, #45403B 0%, #262626 100%);
+    margin-top: 40px;
 }
 
 .pad div {
@@ -147,6 +148,7 @@ button {
     -webkit-text-stroke: 1px #FFED00;
     margin-top: 0px;
     margin-bottom: 10px;
+    margin-top: 40px;
 }
 
 .about {
@@ -444,6 +446,9 @@ button {
 
 }
 
+.strelka {
+    display: none;
+}
 
 
 
@@ -573,6 +578,12 @@ button {
 
 }
 
+.forma form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .forma h3 {
     padding-left: 30px;
     padding-top: 20px;
@@ -607,6 +618,7 @@ button {
 }
 
 .forma p {
+
     color: #CCC;
     font-family: Helvetica;
     font-size: 14px;
@@ -716,4 +728,18 @@ button {
 .lastbox {
     display: none;
 
+}
+
+.galery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hr4 {
+    width: 48%;
+    margin-top: 20px;
 }

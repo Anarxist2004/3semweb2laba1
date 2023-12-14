@@ -20,6 +20,10 @@
 
     }
 
+    .contacus {
+        font-size: 40px;
+    }
+
     .boxhead2 {
 
         height: 40.44px;
@@ -364,6 +368,7 @@
         margin-left: 5%;
         margin-right: 5%;
         width: 90%;
+        height: 40px;
         padding: 0px;
         border: 0px;
 
@@ -372,10 +377,12 @@
     .forma button {
         margin-bottom: 30px;
         margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
+        margin-right: 0%;
+        width: 292px;
+        height: 60px;
         padding: 0px;
         border: 0px;
+        overflow: hidden;
     }
 
 
@@ -388,6 +395,19 @@
         border: 0px;
 
     }
+
+    .forma form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .forma p {
+        width: 251px;
+        height: 30px;
+    }
+
 
     .forma input:nth-child(2) {
         margin-bottom: 30px;
