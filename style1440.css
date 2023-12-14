@@ -1,7 +1,7 @@
 @media screen and (min-width: 1440px) {
     .boxp1 {
         align-items: center;
-        width: 100%;
+        width: 1200px;
         height: 561px;
         display: flex;
         justify-content: end;
@@ -88,6 +88,7 @@
     .galery {
         display: flex;
         height: 1600px;
+        width: 1200px;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -96,7 +97,7 @@
 
 
     .pad {
-        width: 32%;
+        width: 386px;
         height: 410px;
         display: flex;
         flex-direction: row;
@@ -214,6 +215,31 @@
         margin-bottom: 10px;
     }
 
+    .video {
+        width: 1200px;
+        height: auto;
+
+        margin-bottom: 30px;
+    }
+
+    .section1 {
+        width: 1200px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        margin-left: 0%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
     .viewbox {
         margin-top: 40px;
         width: 32%;
@@ -221,7 +247,7 @@
     }
 
     .about {
-        width: 32%;
+        width: 25%;
         height: 250px;
     }
 
@@ -260,8 +286,8 @@
     }
 
     .links {
-        width: 90%;
-        margin-left: 5%;
+        width: 1200px;
+        margin-left: 0%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -270,7 +296,7 @@
     }
 
     .boxa {
-        width: 67%;
+        width: 100%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -288,6 +314,7 @@
         font-weight: 700;
         line-height: 100%;
         /* 20px */
+        padding: 0%;
         text-transform: uppercase;
         margin: 0px 0px 0px 0px;
     }
