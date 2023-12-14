@@ -563,7 +563,7 @@ button {
 
 .forma {
     display: flex;
-    margin-left: 15px;
+
     width: 360px;
     height: 420px;
     background: linear-gradient(180deg, #262626 30.46%, #3A3A3A 100%);
@@ -603,7 +603,7 @@ button {
     display: block;
     width: 65px;
     height: 10px;
-    padding-left: 20%;
+    margin-left: -25%;
 }
 
 .forma p {
@@ -639,7 +639,7 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     /*
     display: flex;
     flex-direction: row;
@@ -657,7 +657,8 @@ button {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    ;
     flex-wrap: wrap;
 }
 

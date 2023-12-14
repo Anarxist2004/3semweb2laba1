@@ -66,9 +66,10 @@
         padding-top: 50px;
         display: block;
         width: 65px;
-        height: 10px;
-        padding-right: 20%;
+        height: 44px;
+        padding-right: 5%;
         order: 4;
+        padding-left: 0%;
     }
 
     .arrows {
@@ -83,5 +84,7 @@
         display: inline;
 
     }
+
+
 
 }

@@ -164,6 +164,14 @@
         object-fit: cover;
     }
 
+    .forma1 {
+        padding-top: 50px;
+        display: block;
+        width: 65px;
+        height: 10px;
+        padding-left: 10%;
+        margin: 0px 0px 0px 0px;
+    }
 
     .boxh3 {
         display: flex;
