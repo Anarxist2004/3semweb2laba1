@@ -756,3 +756,21 @@ button {
     width: 48%;
     margin-top: 20px;
 }
+
+input {
+    color: #FFF;
+    background-color: transparent;
+
+    border-bottom: 1px solid #f8f2f2 !important;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    /* 20px */
+    text-transform: uppercase;
+}
