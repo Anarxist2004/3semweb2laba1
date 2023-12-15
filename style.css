@@ -480,6 +480,7 @@ button {
 
 
 
+
 .footdiv {
     height: 205px;
     padding-left: 13px;
@@ -741,6 +742,7 @@ button {
 .lastbox {
     display: none;
 
+
 }
 
 .galery {
@@ -871,3 +873,8 @@ button:focus {
 }
 
 .dummy {}
+
+a {
+    cursor: pointer;
+    z-index: 1;
+}

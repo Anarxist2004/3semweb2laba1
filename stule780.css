@@ -492,8 +492,10 @@
     .lastbox {
         display: flex;
         flex-direction: column;
-
+        z-index: 2;
     }
+
+
 
     .lastbox p {
         color: #A8A8A8;
