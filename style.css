@@ -702,7 +702,7 @@ button {
 }
 
 .links div {
-    height: 300px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -773,4 +773,99 @@ input::placeholder {
     line-height: 100%;
     /* 20px */
     text-transform: uppercase;
+}
+
+/* псевдоэлементы */
+::selection {
+    color: #db1212;
+    /* Цвет текста при выделении */
+    background: #1E1E1E;
+    /* Цвет фона при выделении */
+}
+
+button:hover {
+    transform: scale(1.1) rotate(5deg);
+
+    box-shadow: 0 8px 12px rgba(126, 49, 49, 0.2);
+
+    /* Изменение цвета фона при наведении */
+
+    /* Изменение цвета текста при наведении */
+
+}
+
+button:active {
+    transform: scale(0.8);
+    transform: skewX(-10deg) skewY(-5deg);
+    /* Уменьшение размера кнопки при нажатии */
+}
+
+button:focus {
+    /* border: 6px solid #007bff !important;
+     Изменение цвета рамки при фокусе на поле ввода */
+}
+
+.card {
+    position: relative;
+}
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+
+    animation: spin 3s ease-out 0s forwards;
+    position: absolute;
+
+
+}
+
+.opaloader {
+    visibility: hidden;
+    animation: fadeIn 0.5s ease-out 3s forwards;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@keyframes spin {
+    from {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+
+    to {
+        visibility: hidden;
+        opacity: 1;
+        transform: rotate(1440deg);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+
+.nav1 a:nth-child(even) {
+    background-color: #464646;
+    /* Цвет фона для четных элементов */
+
+}
+
+.nav1 a:nth-child(odd) {
+    background-color: #401717 !important;
+    /* Цвет фона для четных элементов */
+
 }
