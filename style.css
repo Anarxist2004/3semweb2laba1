@@ -738,6 +738,8 @@ label span {
     align-items: center;
 }
 
+.boxa {}
+
 .boxa a {
     width: 100%;
     /* Занимает 100% ширины контейнера */
